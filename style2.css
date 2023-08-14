@@ -1,8 +1,8 @@
 .container {
     display: grid;
-    grid-template-columns: 2fr 6fr 2fr;
-    grid-template-rows: 1fr 10fr 1fr;
-    gap: 0.5rem;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: auto 1fr auto;
+    gap: .5rem;
     width: 100vw;
     height: 100vh;
     grid-template-areas: 
