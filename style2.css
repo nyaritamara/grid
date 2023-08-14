@@ -1,0 +1,51 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    gap: 0.5rem;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas: 
+    "header header header"
+    "navigation content sidebar"
+    "footer footer footer";
+}
+
+.item {
+    padding: .5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: .875;
+    text-align: center;
+}
+
+.header, .footer {
+    font-size: 2rem;
+}
+
+.header {
+    grid-area: header;
+    background-color: lightgreen;
+}
+
+.navigation {
+    grid-area: navigation;
+    background-color: gray;
+    color: aliceblue;
+}
+
+.content {
+    grid-area: content;
+    background-color: aquamarine;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: gray;
+    color: aliceblue;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: black;
+    color: aliceblue;
+}
