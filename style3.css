@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 20px;
+}
+
+.item{
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.column {
+    background-color: lightgray;
+    border-radius: 5%;
+}
+
+.price {
+    color: azure;
+    background-color: red;
+}
+
+.button {
+    color: azure;
+    background-color: darkblue;
+    text-decoration: none;
+    padding: 6px 40px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.list {
+    text-align: justify;
+    padding-left: 60px;
+}
